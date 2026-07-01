@@ -1,20 +1,9 @@
-:root {
-	--fuente-principal: "Roboto Serif", sans-serif;
-	--fuente-form: "Englebert", cursive;
-}
 * {
 	border: 1px dashed red;
 	min-height: 10px;
 }
-
 body {
 	background: black;
-}
-input,
-button,
-textarea,
-select {
-	font-family: inherit;
 }
 .postcard {
 	background: white;
@@ -41,13 +30,7 @@ select {
 .body-left,
 .body-right {
 	padding: 10px;
-}
-.body-left {
-	font-family: var(--fuente-principal);
-}
-.body-right {
-	font-family: var(--fuente-form);
-	font-style: normal;
+	font-family: "roboto", sans-serif, arial;
 }
 .postcard-footer {
 	text-align: center;
